@@ -11,7 +11,7 @@ $response = [
 ];
 
 if (!empty($username) && !empty($password) && !empty($hwid)) {
-    // Проверяем условие для успешного входа (здесь должны быть ваша логика проверки в БД или другом хранилище)
+    // Ваша логика проверки данных, например:
     if ($username === 'your_username' && $password === 'your_password' && $hwid === 'your_hwid') {
         $response['status'] = 'success';
         $response['message'] = 'Login successful';
